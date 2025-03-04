@@ -28,17 +28,20 @@ We compared the quantized and non-quantized versions of the model. Both were tes
 
 | **Metric**             | **Value**       |
 |------------------------|----------------|
-| **Minimum Inference Time** | 260.8 ms     |
-| **RAM Usage**          | 137-225 MB      |
+| **Minimum Inference Time** | 335.5 ms     |
+| **First App Load** | 16.2 s     |
+| **Subsequent App Load** | 15.7 s     |
+| **RAM Usage**          | 240 - 324 MB      |
 | **PSNR**               | 39.34 dB        |
-| **SSIM**               | 0.996 dB        |
 
 ### Quantized Model
 
 | **Metric**             | **Value**       |
 |------------------------|----------------|
-| **Minimum Inference Time** | 135.8 ms     |
-| **RAM Usage**          | 161-213 MB      |
+| **Minimum Inference Time** | 140.7 ms     |
+| **First App Load** | 11 s     |
+| **Subsequent App Load** | 10.8 s     |
+| **RAM Usage**          | 161 - 214 MB      |
 | **PSNR**               | 42.1 dB        |
 
 ## Evaluation
