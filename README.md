@@ -40,7 +40,6 @@ We compared the quantized and non-quantized versions of the model. Both were tes
 | **Minimum Inference Time** | 135.8 ms     |
 | **RAM Usage**          | 161-213 MB      |
 | **PSNR**               | 42.1 dB        |
-| **SSIM**               | 0.997 dB        |
 
 ## Evaluation
 
