@@ -4,7 +4,7 @@ from models.ChaIR import build_net
 model = build_net()
 
 checkpoint = torch.load("model_ots_4073_9968.pkl", map_location="cpu")
-model.load_state_dict(checkpoint["model"])  # ✅ Učitaj state_dict iz ključa "model"
+model.load_state_dict(checkpoint["model"])
 
 model.eval()
 
