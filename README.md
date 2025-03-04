@@ -21,7 +21,7 @@ cd ..
 ## ChaIR Results Summary
 We compared the quantized and non-quantized versions of the model. Both were tested using the hazy [SOTS](https://drive.google.com/file/d/16j2dwVIa9q_0RtpIXMzhu-7Q6dwz_D1N/view) dataset.
 
-### Image Results [here](https://drive.google.com/drive/folders/1jT7Sx52Cu0POTZQcDkdJouYK2rARRQw9?usp=sharing)
+### View Image Results [here](https://drive.google.com/drive/folders/1jT7Sx52Cu0POTZQcDkdJouYK2rARRQw9?usp=sharing)
 ### Download the model [here](https://drive.google.com/drive/folders/1jayXhd7K9NiwcNZXsoGxH8HLNHxdL4XT?usp=sharing)
 
 ### Non-Quantized Model
