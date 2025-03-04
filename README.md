@@ -81,5 +81,4 @@ For testing, your directory structure should look like this
           `└──hazy` 
 
 ## Acknowledgments
-This project is based on the **ChaIR** model, originally developed by [c-yn](https://github.com/c-yn/ChaIR).  
-We extend and optimize it for **Qualcomm AI Hub** deployment and real-time aerial dehazing on the **QCS8550** platform.
+This project extends the work of the [ChaIR repository](https://github.com/c-yn/ChaIR) and was developed for real-time outdoor aerial dehazing using Qualcomm AI Hub.
