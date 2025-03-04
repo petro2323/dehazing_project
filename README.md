@@ -26,29 +26,31 @@ We compared the quantized and non-quantized versions of the model. Both were tes
 
 ### Non-Quantized Model
 
-|**Minimum Inference Time**|260.8 ms|
-|**RAM Usage**|137-225 MB|
-|**PSNR**|39.34 dB|
-|**SSIM**|0.996 dB|
+| **Metric**             | **Value**       |
+|------------------------|----------------|
+| **Minimum Inference Time** | 260.8 ms     |
+| **RAM Usage**          | 137-225 MB      |
+| **PSNR**               | 39.34 dB        |
+| **SSIM**               | 0.996 dB        |
 
 ### Quantized Model
 
-|**Minimum Inference Time**|135.8 ms|
-|**RAM Usage**|161-213 MB|
-|**PSNR**|42.1 dB|
-|**SSIM**|0.997 dB|
+| **Metric**             | **Value**       |
+|------------------------|----------------|
+| **Minimum Inference Time** | 135.8 ms     |
+| **RAM Usage**          | 161-213 MB      |
+| **PSNR**               | 42.1 dB        |
+| **SSIM**               | 0.997 dB        |
 
 ## Evaluation
 
-#### Dehazing Images
-
-##### Dehazing One Image
+#### Dehazing One Image
 
 ~~~
 python dehaze_inference.py --model_path path_to_ots_model --input_path your_path/image_name --output_path your_path/image_name
 ~~~
 
-##### Dehazing More Images
+#### Dehazing More Images
 
 ~~~
 python dehaze_inference.py --model_path path_to_ots_model --input_path --input_path your_path/folder_name --output_path your_path/folder_name
